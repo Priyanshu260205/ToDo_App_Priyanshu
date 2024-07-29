@@ -20,7 +20,6 @@ def todo(request):
     return render(request, "todo.html", parameters) # isme jo parameter ja rha h usme bhi koi completed todo nhi h
 
 
-
 # ===================================== ADD TODO =======================================
 
 def add_todo(request):
