@@ -6,3 +6,6 @@ class Mytodo(models.Model):
     due_at = models.DateField()
     
     is_completed = models.BooleanField(default=False)
+    
+    def __str__(self):
+        return self.task + " dead at " + str(self.due_at) 
